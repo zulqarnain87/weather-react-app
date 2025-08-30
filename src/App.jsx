@@ -15,7 +15,6 @@ function App() {
     try {
       setError("");
       setWeather(null);
-
       const res = await fetch(
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${`0fd75992988554c38ef07442139ac0e4`}&units=metric`
       );
